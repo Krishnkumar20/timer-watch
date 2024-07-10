@@ -1,0 +1,90 @@
+body {
+    background-image: url(pexels-gradienta-7135082.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black
+    }
+    
+    .stopcontainer {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 520px;
+    height: 280px;
+    border-radius: 10px;
+    padding-top: 35px;
+    box-shadow: 0px 0px 10px 0px #ffeb3b,inset 1px -20px 120px 20px #04144e,inset 0px 20px 20px 20px #0b247c,inset 0px 20px 20px 20px #04144e,inset 0px 20px 98px 65px #0c1e5c;
+    }
+    
+    .watch {
+    background-color:gray;
+    color: gray;
+    border: 1px gray;
+    height: 100px;
+    width: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px 25px 20px 25px;
+    box-shadow: 1px 0px 0px 0px blanchedalmond, -1px 0px 0px 0px blanchedalmond, 0px 0px 4px 0px blanchedalmond;
+    display: flex;
+    grid-column-end: auto;
+    grid-column-start: span 3;
+    }
+    
+    #t {
+    color: #00fb00;
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    #t1 {
+    color: #00fb00;
+    
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    #t2 {
+    color: #00fb00;
+    
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    #t3{
+    color: #00fb00;
+    
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+    
+    button {
+    box-shadow: 0px 5px 2px 0px rgb(0 0 0);
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 25px;
+   
+    font-size: large;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    }
+    
+    button:active {
+    box-shadow: 0px 4px 2px 0px rgb(0 0 0);
+    transform: translateY(3px);
+    }
+    
+    p {
+    margin: 10px;
+    }
